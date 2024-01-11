@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.App {
+  width: 100vw;
+  height: 100vw;
+   
+}
+
+.Sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #2F4050;
+}

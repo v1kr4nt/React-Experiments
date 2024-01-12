@@ -9,8 +9,9 @@ function App() {
     <div
       style={{ width: "100vw", height: "100vh", backgroundColor: "#eeeeee" }}
     >
-      <Appbar />
       <Router>
+        <Appbar />
+
         <Routes>
           <Route path="/addcourse" element={<AddCourse />} />
           <Route path="/signin" element={<Signin />} />
